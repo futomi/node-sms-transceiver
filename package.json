@@ -1,0 +1,37 @@
+{
+  "name": "node-sms-transceiver",
+  "version": "0.0.1",
+  "description": "The node-sms-transceiver sends and receives SMS messages via a GSM modem.",
+  "main": "./lib/sms-transceiver.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SMS",
+    "PDU",
+    "GSM",
+    "Modem",
+    "AT command",
+    "LTE",
+    "3G"
+  ],
+  "homepage": "https://github.com/futomi",
+  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futomi/node-sms-transceiver.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "serialport": ">=8.0.0",
+    "node-sms-pdu": ">=0.2.0",
+    "node-oas-valexp": ">=0.0.4"
+  }
+}
